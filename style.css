@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    rgb(83, 83, 222) 30%,
+    rgb(197, 76, 197)
+  );
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+}
