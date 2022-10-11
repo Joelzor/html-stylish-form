@@ -21,6 +21,8 @@ body {
   height: 500px;
   margin: 50px auto;
   border-radius: 12px;
+  padding-top: 30px;
+  
 
 }
 
@@ -34,6 +36,8 @@ form {
   grid-template-columns: 1fr;
   gap: 25px;
   margin: 30px;
+
+ 
 }
 .form-row {
   display: grid;
@@ -74,4 +78,17 @@ button {
     to left,
     rgb(83, 83, 222) 30%,
     rgb(197, 76, 197));
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(138, 136, 136);
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
 }

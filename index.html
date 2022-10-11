@@ -13,7 +13,7 @@
       <form>
         <div class="form-row">
           <label for="username">Your Name</label>
-          <input
+          <input required
             id="username"
             name="username"
             type="text"
@@ -23,7 +23,7 @@
 
         <div class="form-row">
           <label for="email">Email</label>
-          <input
+          <input required
             id="email"
             name="email"
             type="email"
@@ -34,23 +34,27 @@
           <label for="services">Needed Services</label>
           <select class="arrows" name="services" id="services">
             <option selected disabled>Choose Services</option>
-            <option value="phone">Telephone Service</option>
-            <option value="email">Email Service</option>
-            <option value="fax">Fax Service</option>
+            <option value="housing">Housing</option>
+            <option value="education">Education</option>
+            <option value="health">Health</option>
+            <option value="leisure">Leisure</option>
+            <option value="food">Food&Bevarage</option>
           </select>
         </div>
         <div class="form-row">
           <label for="budget">Budget</label>
           <select class="arrows" name="budget" id="budget">
             <option selected disabled>Choose Budget</option>
-            <option value="5">£5</option>
-            <option value="10">£10</option>
+            <option value="20">£20</option>
+            <option value="30">£30</option>
             <option value="50">£50</option>
+            <option value="100">£100</option>
+            <option value="300">£300</option>
           </select>
         </div>
         <div class="form-row">
           <label for="message">Message</label>
-          <textarea name="message" id="message" cols="15" rows="5" placeholder="Your message here..."></textarea>
+          <textarea name="message" id="message" cols="10" rows="3" placeholder="Your message here..."></textarea>
         </div>
         
         <button type="submit">Submit &rarr;</button>
