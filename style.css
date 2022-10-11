@@ -12,20 +12,23 @@ body {
     rgb(197, 76, 197)
   );
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  color: #555;
 }
 
 .container {
   background-color: white;
   width: 400px;
-  height: 600px;
-  margin: 50px auto;
+  /* height: 600px; */
+  margin: 20px auto 0 auto;
   border-radius: 12px;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
+  font-size: 28px;
+  color: black;
 }
 
 form {
@@ -45,7 +48,7 @@ textarea {
   outline: none;
   border: none;
   border-bottom: 0.5px solid black;
-  padding: 10px;
+  padding: 15px;
   font-family: inherit;
 }
 
@@ -66,8 +69,9 @@ select.arrows {
 }
 
 label {
-  font-size: 10px;
+  font-size: 13px;
 }
+
 button {
   border: none;
   color: white;
@@ -80,7 +84,7 @@ button {
     rgb(197, 76, 197)
   );
   font-weight: bold;
-  margin: 5px 20px;
+  margin: 5px 10px;
   cursor: pointer;
 }
 
