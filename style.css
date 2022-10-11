@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: linear-gradient(
     to top right,
     rgb(83, 83, 222) 30%,
@@ -14,6 +14,7 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   color: #555;
+  
 }
 
 .container {
@@ -22,19 +23,14 @@ body {
   /* height: 600px; */
   margin: 20px auto 0 auto;
   border-radius: 12px;
-<<<<<<< HEAD
-  padding-top: 30px;
-  
-
-=======
-  padding: 20px;
->>>>>>> bbf42b6566deff54dd17a91375af987589a68cdf
 }
+
 
 h1 {
   text-align: center;
   font-size: 28px;
   color: black;
+  padding-top: 30px;
 }
 
 form {
@@ -43,7 +39,7 @@ form {
   gap: 25px;
   margin: 30px;
 
- 
+
 }
 .form-row {
   display: grid;
@@ -89,18 +85,11 @@ button {
   background-image: linear-gradient(
     to left,
     rgb(83, 83, 222) 30%,
-<<<<<<< HEAD
     rgb(197, 76, 197));
-}
-=======
-    rgb(197, 76, 197)
-  );
   font-weight: bold;
   margin: 5px 10px;
   cursor: pointer;
 }
-
->>>>>>> bbf42b6566deff54dd17a91375af987589a68cdf
 input::placeholder,
 textarea::placeholder {
   color: rgb(138, 136, 136);
